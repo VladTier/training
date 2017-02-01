@@ -10,8 +10,7 @@ def brackets_check(str):
             brackets.pop()
           else:
             return False
-   return brackets
    return not len(brackets)  # 0 == True
 
-print(brackets_check(str), brackets)
+print(brackets_check(str))
    
